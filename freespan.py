@@ -2,6 +2,9 @@
 Usage:
 $ python freespan.py sourcefile.csv outputfile.csv
 
+More details are found in our wiki (log-in required):
+http://wiki.npo-inc.com/index.php/Getting_KP_for_Freespans
+
 Notes:
 Script removes double quotes and newlines.
 Script replaces all semi-colons with a comma.
