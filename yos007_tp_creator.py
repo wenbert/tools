@@ -47,7 +47,6 @@ try:
         northing = pieces[1]
         bearing = pieces[2]
         
-        #remove the if-condition below when implementing the "tolerance"
         if(float(previous_bearing) != float(bearing)):
             new_file.write("%s,%s,%s\n" % (previous_easting,previous_northing,previous_bearing))
             #pass

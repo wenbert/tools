@@ -14,7 +14,7 @@ from sys import argv
 
 script, input_file, output_file = argv
 
-try:        
+try:
     #output_file = input_file,"converted.txt"
     new_file = open(output_file, 'w')
     new_file.truncate()
