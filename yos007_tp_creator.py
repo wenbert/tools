@@ -36,7 +36,7 @@ try:
         #print line        
         line = line.replace("\"", "")
         line = line.replace(";", ",")
-        line = line.replace("\r\n","")
+        line = line.replace("\n","")
         pieces = line.split(",")
         
         previous_bearing = bearing
